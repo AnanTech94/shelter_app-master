@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.life.shelter.people.homeless.Account"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <ImageView
+            style="@style/AccountActivityImagesStyle"
+            android:src="@drawable/man"/>
+        <ImageView
+            style="@style/AccountActivityImagesStyle"
+            android:src="@drawable/woman"/>
+        <ImageView
+            style="@style/AccountActivityImagesStyle"
+            android:src="@drawable/maan"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="#000000"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+   android:layout_margin="2dp">
+    <ImageButton
+        android:id="@+id/button_image"
+        android:text="Take a picture!"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/cameraicon"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
